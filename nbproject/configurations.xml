@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="mavlink" displayName="mavlink" projectFiles="true">
+        <logicalFolder name="v1.0" displayName="v1.0" projectFiles="true">
+          <logicalFolder name="ardupilotmega"
+                         displayName="ardupilotmega"
+                         projectFiles="true">
+            <itemPath>mavlink/v1.0/ardupilotmega/ardupilotmega.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_ahrs.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_ap_adc.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_data16.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_data32.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_data64.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_data96.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_configure.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_control.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_fence_fetch_point.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_fence_point.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_fence_status.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_hwstatus.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_limits_status.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_meminfo.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_mount_configure.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_mount_control.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_mount_status.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_radio.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_sensor_offsets.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_set_mag_offsets.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_simstate.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/mavlink_msg_wind.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/testsuite.h</itemPath>
+            <itemPath>mavlink/v1.0/ardupilotmega/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <itemPath>mavlink/v1.0/common/common.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_attitude.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_attitude_quaternion.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_auth_key.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_change_operator_control.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_change_operator_control_ack.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_command_ack.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_command_long.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_data_stream.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_debug.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_debug_vect.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_global_position_int.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_global_position_setpoint_int.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_global_vision_position_estimate.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_gps_global_origin.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_gps_raw_int.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_gps_status.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_heartbeat.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_highres_imu.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_hil_controls.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_hil_rc_inputs_raw.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_hil_state.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_local_position_ned.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_local_position_ned_system_global_offset.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_local_position_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_manual_control.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_memory_vect.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_ack.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_clear_all.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_count.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_current.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_item.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_item_reached.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_request.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_request_list.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_request_partial_list.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_set_current.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_mission_write_partial_list.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_named_value_float.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_named_value_int.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_nav_controller_output.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_optical_flow.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_param_request_list.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_param_request_read.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_param_set.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_param_value.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_ping.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_raw_imu.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_raw_pressure.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_rc_channels_override.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_rc_channels_raw.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_rc_channels_scaled.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_request_data_stream.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_thrust_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_safety_allowed_area.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_safety_set_allowed_area.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_scaled_imu.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_scaled_pressure.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_servo_output_raw.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_global_position_setpoint_int.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_gps_global_origin.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_local_position_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_mode.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_quad_motors_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_speed_thrust.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_thrust.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_state_correction.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_statustext.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_sys_status.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_system_time.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_vfr_hud.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_vicon_position_estimate.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_vision_position_estimate.h</itemPath>
+            <itemPath>mavlink/v1.0/common/mavlink_msg_vision_speed_estimate.h</itemPath>
+            <itemPath>mavlink/v1.0/common/testsuite.h</itemPath>
+            <itemPath>mavlink/v1.0/common/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="matrixpilot" displayName="matrixpilot" projectFiles="true">
+            <itemPath>mavlink/v1.0/matrixpilot/matrixpilot.h</itemPath>
+            <itemPath>mavlink/v1.0/matrixpilot/mavlink.h</itemPath>
+            <itemPath>mavlink/v1.0/matrixpilot/testsuite.h</itemPath>
+            <itemPath>mavlink/v1.0/matrixpilot/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pixhawk" displayName="pixhawk" projectFiles="true">
+            <itemPath>mavlink/v1.0/pixhawk/mavlink.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_attitude_control.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_brief_feature.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_data_transmission_handshake.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_encapsulated_data.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_image_available.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_image_trigger_control.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_image_triggered.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_marker.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_pattern_detected.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest_connection.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_position_control_setpoint.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_raw_aux.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_set_cam_shutter.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_set_position_control_offset.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_watchdog_command.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_watchdog_heartbeat.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_info.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_status.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/pixhawk.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/pixhawk.pb.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/testsuite.h</itemPath>
+            <itemPath>mavlink/v1.0/pixhawk/version.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="sensesoar" displayName="sensesoar" projectFiles="true">
+            <itemPath>mavlink/v1.0/sensesoar/mavlink.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_ack.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_chng.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_filt_rot_vel.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_llc_out.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_air_temp.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_air_velocity.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_attitude.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_bias.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_position.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_qff.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_velocity.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_obs_wind.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_pm_elec.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/mavlink_msg_sys_stat.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/sensesoar.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/testsuite.h</itemPath>
+            <itemPath>mavlink/v1.0/sensesoar/version.h</itemPath>
+          </logicalFolder>
+          <itemPath>mavlink/v1.0/checksum.h</itemPath>
+          <itemPath>mavlink/v1.0/mavlink_helpers.h</itemPath>
+          <itemPath>mavlink/v1.0/mavlink_protobuf_manager.hpp</itemPath>
+          <itemPath>mavlink/v1.0/mavlink_types.h</itemPath>
+          <itemPath>mavlink/v1.0/protocol.h</itemPath>
+        </logicalFolder>
+        <itemPath>mavlink/config.h</itemPath>
+      </logicalFolder>
+      <itemPath>mavlink_test.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>mavlink_test</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>mavlink</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="mavlink/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/ardupilotmega.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_ahrs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_ap_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data16.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data32.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data96.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_configure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_fetch_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_hwstatus.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_limits_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_meminfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_configure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_radio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_sensor_offsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_set_mag_offsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_simstate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_wind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/testsuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/version.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/checksum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_attitude.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_attitude_quaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_auth_key.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_change_operator_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_change_operator_control_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_command_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_command_long.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_data_stream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_debug_vect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_position_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_position_setpoint_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_vision_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_global_origin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_raw_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_heartbeat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_highres_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_controls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_rc_inputs_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_state.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_ned.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_ned_system_global_offset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_manual_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_memory_vect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_clear_all.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_count.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_current.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_item.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_item_reached.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request_partial_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_set_current.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_write_partial_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_named_value_float.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_named_value_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_nav_controller_output.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_optical_flow.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_request_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_request_read.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_set.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_value.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_ping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_raw_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_raw_pressure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_override.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_scaled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_request_data_stream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_thrust_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_safety_allowed_area.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_safety_set_allowed_area.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_scaled_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_scaled_pressure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_servo_output_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_global_position_setpoint_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_gps_global_origin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_local_position_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_mode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_motors_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_speed_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_state_correction.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_statustext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_sys_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_system_time.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vfr_hud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vicon_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vision_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vision_speed_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/matrixpilot.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/testsuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_protobuf_manager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_attitude_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_brief_feature.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_data_transmission_handshake.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_encapsulated_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_available.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_trigger_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_triggered.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_marker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_pattern_detected.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest_connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_position_control_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_raw_aux.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_set_cam_shutter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_set_position_control_offset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_command.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_heartbeat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/pixhawk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/pixhawk.pb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/protocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_chng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_filt_rot_vel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_llc_out.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_air_temp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_air_velocity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_attitude.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_bias.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_position.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_qff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_velocity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_wind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_pm_elec.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_sys_stat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/sensesoar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink_test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="mavlink/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/ardupilotmega.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_ahrs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_ap_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data16.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data32.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_data96.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_configure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_digicam_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_fetch_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_fence_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_hwstatus.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_limits_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_meminfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_configure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_mount_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_radio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_sensor_offsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_set_mag_offsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_simstate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/mavlink_msg_wind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/testsuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/ardupilotmega/version.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/checksum.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_attitude.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_attitude_quaternion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_auth_key.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_change_operator_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_change_operator_control_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_command_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_command_long.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_data_stream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_debug_vect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_position_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_position_setpoint_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_global_vision_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_global_origin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_raw_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_gps_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_heartbeat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_highres_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_controls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_rc_inputs_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_hil_state.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_ned.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_ned_system_global_offset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_local_position_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_manual_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_memory_vect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_clear_all.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_count.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_current.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_item.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_item_reached.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_request_partial_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_set_current.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_mission_write_partial_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_named_value_float.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_named_value_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_nav_controller_output.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_optical_flow.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_request_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_request_read.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_set.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_param_value.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_ping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_raw_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_raw_pressure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_override.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_rc_channels_scaled.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_request_data_stream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_roll_pitch_yaw_thrust_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_safety_allowed_area.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_safety_set_allowed_area.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_scaled_imu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_scaled_pressure.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_servo_output_raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_global_position_setpoint_int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_gps_global_origin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_local_position_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_mode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_motors_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_speed_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_set_roll_pitch_yaw_thrust.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_state_correction.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_statustext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_sys_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_system_time.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vfr_hud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vicon_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vision_position_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/mavlink_msg_vision_speed_estimate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/common/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/matrixpilot.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/testsuite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/matrixpilot/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_protobuf_manager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/mavlink_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_attitude_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_brief_feature.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_data_transmission_handshake.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_encapsulated_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_available.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_trigger_control.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_image_triggered.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_marker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_pattern_detected.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_point_of_interest_connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_position_control_setpoint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_raw_aux.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_set_cam_shutter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_set_position_control_offset.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_command.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_heartbeat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/mavlink_msg_watchdog_process_status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/pixhawk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/pixhawk.pb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/pixhawk/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/protocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_ack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_cmd_airspeed_chng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_filt_rot_vel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_llc_out.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_air_temp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_air_velocity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_attitude.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_bias.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_position.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_qff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_velocity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_obs_wind.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_pm_elec.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/mavlink_msg_sys_stat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/sensesoar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/testsuite.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink/v1.0/sensesoar/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mavlink_test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
