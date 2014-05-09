@@ -1510,11 +1510,13 @@ static void mavlink_test_pi_trigger(uint8_t system_id, uint8_t component_id, mav
         uint8_t buffer[MAVLINK_MAX_PACKET_LEN];
         uint16_t i;
 	mavlink_pi_trigger_t packet_in = {
-		5,
+		17235,
+	}17339,
 	};
 	mavlink_pi_trigger_t packet1, packet2;
         memset(&packet1, 0, sizeof(packet1));
-        	packet1.data = packet_in.data;
+        	packet1.trigger_id = packet_in.trigger_id;
+        	packet1.timestamp_pi = packet_in.timestamp_pi;
         
         
 
@@ -1524,12 +1526,12 @@ static void mavlink_test_pi_trigger(uint8_t system_id, uint8_t component_id, mav
         MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
 
         memset(&packet2, 0, sizeof(packet2));
-	mavlink_msg_pi_trigger_pack(system_id, component_id, &msg , packet1.data );
+	mavlink_msg_pi_trigger_pack(system_id, component_id, &msg , packet1.trigger_id , packet1.timestamp_pi );
 	mavlink_msg_pi_trigger_decode(&msg, &packet2);
         MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
 
         memset(&packet2, 0, sizeof(packet2));
-	mavlink_msg_pi_trigger_pack_chan(system_id, component_id, MAVLINK_COMM_0, &msg , packet1.data );
+	mavlink_msg_pi_trigger_pack_chan(system_id, component_id, MAVLINK_COMM_0, &msg , packet1.trigger_id , packet1.timestamp_pi );
 	mavlink_msg_pi_trigger_decode(&msg, &packet2);
         MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
 
@@ -1542,8 +1544,91 @@ static void mavlink_test_pi_trigger(uint8_t system_id, uint8_t component_id, mav
         MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
         
         memset(&packet2, 0, sizeof(packet2));
-	mavlink_msg_pi_trigger_send(MAVLINK_COMM_1 , packet1.data );
+	mavlink_msg_pi_trigger_send(MAVLINK_COMM_1 , packet1.trigger_id , packet1.timestamp_pi );
 	mavlink_msg_pi_trigger_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+}
+
+static void mavlink_test_pi_cam_data(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
+{
+	mavlink_message_t msg;
+        uint8_t buffer[MAVLINK_MAX_PACKET_LEN];
+        uint16_t i;
+	mavlink_pi_cam_data_t packet_in = {
+		963497464,
+	}963497672,
+	}963497880,
+	}963498088,
+	}963498296,
+	}963498504,
+	}963498712,
+	}963498920,
+	}963499128,
+	}963499336,
+	}963499544,
+	}963499752,
+	}963499960,
+	}963500168,
+	}963500376,
+	}963500584,
+	}963500792,
+	}963501000,
+	}963501208,
+	}963501416,
+	}21395,
+	};
+	mavlink_pi_cam_data_t packet1, packet2;
+        memset(&packet1, 0, sizeof(packet1));
+        	packet1.start_tree_1 = packet_in.start_tree_1;
+        	packet1.end_tree_1 = packet_in.end_tree_1;
+        	packet1.start_tree_2 = packet_in.start_tree_2;
+        	packet1.end_tree_2 = packet_in.end_tree_2;
+        	packet1.start_tree_3 = packet_in.start_tree_3;
+        	packet1.end_tree_3 = packet_in.end_tree_3;
+        	packet1.start_tree_4 = packet_in.start_tree_4;
+        	packet1.end_tree_4 = packet_in.end_tree_4;
+        	packet1.start_tree_5 = packet_in.start_tree_5;
+        	packet1.end_tree_5 = packet_in.end_tree_5;
+        	packet1.start_tree_6 = packet_in.start_tree_6;
+        	packet1.end_tree_6 = packet_in.end_tree_6;
+        	packet1.start_tree_7 = packet_in.start_tree_7;
+        	packet1.end_tree_7 = packet_in.end_tree_7;
+        	packet1.start_tree_8 = packet_in.start_tree_8;
+        	packet1.end_tree_8 = packet_in.end_tree_8;
+        	packet1.start_tree_9 = packet_in.start_tree_9;
+        	packet1.end_tree_9 = packet_in.end_tree_9;
+        	packet1.start_tree_10 = packet_in.start_tree_10;
+        	packet1.end_tree_10 = packet_in.end_tree_10;
+        	packet1.data_id = packet_in.data_id;
+        
+        
+
+        memset(&packet2, 0, sizeof(packet2));
+	mavlink_msg_pi_cam_data_encode(system_id, component_id, &msg, &packet1);
+	mavlink_msg_pi_cam_data_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+	mavlink_msg_pi_cam_data_pack(system_id, component_id, &msg , packet1.data_id , packet1.start_tree_1 , packet1.end_tree_1 , packet1.start_tree_2 , packet1.end_tree_2 , packet1.start_tree_3 , packet1.end_tree_3 , packet1.start_tree_4 , packet1.end_tree_4 , packet1.start_tree_5 , packet1.end_tree_5 , packet1.start_tree_6 , packet1.end_tree_6 , packet1.start_tree_7 , packet1.end_tree_7 , packet1.start_tree_8 , packet1.end_tree_8 , packet1.start_tree_9 , packet1.end_tree_9 , packet1.start_tree_10 , packet1.end_tree_10 );
+	mavlink_msg_pi_cam_data_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+	mavlink_msg_pi_cam_data_pack_chan(system_id, component_id, MAVLINK_COMM_0, &msg , packet1.data_id , packet1.start_tree_1 , packet1.end_tree_1 , packet1.start_tree_2 , packet1.end_tree_2 , packet1.start_tree_3 , packet1.end_tree_3 , packet1.start_tree_4 , packet1.end_tree_4 , packet1.start_tree_5 , packet1.end_tree_5 , packet1.start_tree_6 , packet1.end_tree_6 , packet1.start_tree_7 , packet1.end_tree_7 , packet1.start_tree_8 , packet1.end_tree_8 , packet1.start_tree_9 , packet1.end_tree_9 , packet1.start_tree_10 , packet1.end_tree_10 );
+	mavlink_msg_pi_cam_data_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+        mavlink_msg_to_send_buffer(buffer, &msg);
+        for (i=0; i<mavlink_msg_get_send_buffer_length(&msg); i++) {
+        	comm_send_ch(MAVLINK_COMM_0, buffer[i]);
+        }
+	mavlink_msg_pi_cam_data_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+        
+        memset(&packet2, 0, sizeof(packet2));
+	mavlink_msg_pi_cam_data_send(MAVLINK_COMM_1 , packet1.data_id , packet1.start_tree_1 , packet1.end_tree_1 , packet1.start_tree_2 , packet1.end_tree_2 , packet1.start_tree_3 , packet1.end_tree_3 , packet1.start_tree_4 , packet1.end_tree_4 , packet1.start_tree_5 , packet1.end_tree_5 , packet1.start_tree_6 , packet1.end_tree_6 , packet1.start_tree_7 , packet1.end_tree_7 , packet1.start_tree_8 , packet1.end_tree_8 , packet1.start_tree_9 , packet1.end_tree_9 , packet1.start_tree_10 , packet1.end_tree_10 );
+	mavlink_msg_pi_cam_data_decode(last_msg, &packet2);
         MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
 }
 
@@ -1578,6 +1663,7 @@ static void mavlink_test_ardupilotmega(uint8_t system_id, uint8_t component_id, 
 	mavlink_test_compassmot_status(system_id, component_id, last_msg);
 	mavlink_test_ahrs2(system_id, component_id, last_msg);
 	mavlink_test_pi_trigger(system_id, component_id, last_msg);
+	mavlink_test_pi_cam_data(system_id, component_id, last_msg);
 }
 
 #ifdef __cplusplus
